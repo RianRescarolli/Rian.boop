@@ -9,17 +9,14 @@ import java.util.Date;
  * @author aluno
  */
 
-public class Estudante {
-    Estudante estudante = new Estudante();
-    private String CPF;
+public class Professor {
+    Professor professor = new Professor();
     private String nome;
-    private Date dataNascimento;
-    private char genero;
-    private String email;
-    private String nivelEnsino;
+    private String siape;
+    private String IP;
     private String telefone;
-    private String anosEgresso;
-    private String semestreIngresso;
-    private String situacaoAcademica;
-    
+    private String titulacao;
+    private String areaAtuacaoRegime;
+    private Date dataIngresso;
+    private String formacao;
 }
